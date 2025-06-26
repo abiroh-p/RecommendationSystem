@@ -109,7 +109,7 @@ def explain_reason(user_title: str, recommended_title: str) -> str:
 # ------------------------ Streamlit UI ------------------------
 
 st.set_page_config(page_title="🎬 Movie Recommender with Groq", layout="wide")
-st.title("🎥 Movie Recommender with Posters & Groq Explanation")
+st.title("🎥Smart Movie Recommendation System")
 
 # Initialize session state
 if 'recommendations' not in st.session_state:
